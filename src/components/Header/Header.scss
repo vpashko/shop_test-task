@@ -1,0 +1,45 @@
+.header{
+    color: #45bd8f;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    border-bottom: 1px solid #45bd8f;
+    width: 100vw;
+
+
+    @media screen and (max-width: 768px)
+    {
+        padding: 20px 50px;
+        
+    }
+
+    @media screen and (max-width: 480px)
+    {
+        padding: 20px 20px;
+    }
+}
+
+
+
+.header-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #45bd8f;
+
+    @media screen and (max-width: 480px){
+        font-size: 18px;
+    }
+}
+
+.header-subtitle{
+    font-size: 16px;
+    font-weight: 600;
+    color: #414a7e;
+
+    @media screen and (max-width: 480px){
+        font-size: 14px;
+        
+    }
+}
